@@ -1,0 +1,60 @@
+
+#home {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #cccccc;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    //padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+.feature {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.feature img {
+    border: medium none;
+}
+#tabs {
+    font-size: 14px;
+    height: 28px;
+    line-height: 18px;
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#tabs li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 0;
+}
+#tabs li a {
+    background-color: #cccccc;
+    background-image: url("../../imagenes/24x24/fondo-tabs-normal.png") !important;
+    border: 1px solid #cccccc;
+    border-radius: 4px 4px 0 0;
+    color: rgb(78, 86, 101);
+    display: block;
+    font-weight: bold !important;
+    margin-right: 2px;
+    padding: 5px 15px 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+#tabs li a.active {
+    background-color: #cccccc;
+    background-image: url("../../imagenes/24x24/fondo-tabs-active.png") !important;
+    border: 1px solid #cccccc;
+    border-radius: 4px 4px 0 0;
+    color: rgb(78, 86, 101);
+    display: block;
+    font-weight: normal;
+    margin-right: 2px;
+    padding: 5px 15px 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
