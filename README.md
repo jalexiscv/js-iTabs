@@ -1,4 +1,4 @@
-js-iTabs
+iTabs - Insside Framewok®
 ===========
 
 Un complemento (plugin)  desarrollado para la plataforma INSSIDE usando MooTools 1.5.2. Utiliza una semántica simple para su implementación, posee efectos de transición entre los elementos, y requiere muy pocas líneas de código para su implementación. Al utilizar iTabs creara un panel de pestañas de un solo elemento. Todo lo que necesita es un selector para las fichas (cabeceras, pestañas), y un selector de los contenidos correspondientes. La interacción con las  fichas está basada en eventos, no se necesita ningún esfuerzo para agregar fichas: simplemente añadir elementos con los nombres de las clases correctas (o nombres de etiqueta si ha especificado que su selector como tal) y listo!. La apariencia se deja totalmente en manos del usuario. Tanto si desea una lista en línea como los encabezados de la ficha o una serie de enlaces, es decisión del diseñador de la interface.
